@@ -1,7 +1,6 @@
 // 🌟 Task 1:
 
 // 👉 Find and fix the bugs in the function's code so that when the page loads, it logs both messages in the console with the correct ingredients and in the correct order ('Now making...' first, and then 'Enjoy...'). Only change the code in the function itself, not where the function is called afterwards!
-
 function makeCheeseToastie(bread = "sourdough", cheese = "mature cheddar") {
   console.log(`Now making your ${bread} and ${cheese} toastie...`);
   return `Enjoy your ${bread} and ${cheese} toastie!`;
